@@ -1,0 +1,309 @@
+* 
+{
+	margin: 0px;
+	padding: 0px;
+}
+.buttonsAndMenu 
+{
+	background: #CCA26E url('images/background5.jpg') center repeat-x;
+	padding-top: 80px;
+	padding-bottom: 200px;
+}
+
+ul, ol 
+{
+	list-style: none;
+}
+
+body 
+{
+	background: #ECDFB7;
+	font-family: Arial, sans-serif;
+	width: 100%;
+}
+
+
+header 
+{
+	padding:0;
+}
+
+
+h1 
+{
+	font-size: 40px;
+	font-family: 'Acme', sans-serif;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 4px #000;
+	background-color: #dcab4f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+footer 
+{
+	width: 100%
+	height: 50px;
+	margin: 0;
+	background-color:#dcab4f; 
+}
+
+footer p {
+font-size: 20px;
+font-style: 'Gotu', sans-serif;
+color: black;
+opacity: 0.4;
+display: block;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+/*MAIN-MENU*/
+
+#main-menu ul
+{
+	width: 988px;
+	height: 500px;
+	margin: 0 auto;
+	padding-top: 0px;
+	border: 3px solid black;
+	margin-top: 0px;
+}
+
+#main-menu ul li
+{
+	float: left;
+	width: 140px;
+	height: 500px;
+	overflow: hidden;
+	position: relative; 
+}
+
+.bw
+{
+	width: 140px;
+	height: 500px;
+	cursor: pointer;
+	position: absolute;
+	left: 0px;
+}
+
+.color
+{
+	width: 140px;
+	height: 500px;
+	cursor: pointer;
+	position: absolute;
+	left: 140px;
+}
+.description 
+{
+	width: 240px;
+	height: 460px;
+	padding: 20px;
+	background-color: #f7f3e8;
+	position: absolute;
+	left: 140px;
+}
+.description h2
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+	color:#fff;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px #000;
+	background-color: #dcab4f;
+	border-radius: 5px;
+}
+.description p
+{
+	padding-top: 30px;
+	font-size: 25px;
+	color: #000;
+	text-align: center;
+	font-family: 'Dancing Script', cursive; 
+	font-weight: bolder;
+}
+
+
+
+
+/*Backgrounds*/
+
+#Paris-color 
+{
+background: url('images/Paris-color.jpg'); 
+}
+#Paris-bw 
+{
+	background: url('images/Paris-bw.jpg');
+}
+#Paris-bw:hover
+{
+	background: url('images/Paris-color.jpg');
+}
+
+
+
+#Londres-color 
+{
+background: url('images/Londres-color.jpg'); 
+}
+#Londres-bw 
+{
+	background: url('images/Londres-bw.jpg');
+}
+#Londres-bw:hover 
+{
+	background: url('images/Londres-color.jpg');
+}
+
+#Havana-color 
+{
+background: url('images/Havana-color.jpg'); 
+}
+#Havana-bw 
+{
+	background: url('images/Havana-bw.jpg');
+}
+
+#Havana-bw:hover 
+{
+	background: url('images/Havana-color.jpg');
+}
+
+#Barcelone-color 
+{
+background: url('images/Barcelone-color.jpg'); 
+}
+#Barcelone-bw 
+{
+	background: url('images/Barcelone-bw.jpg');
+}
+#Barcelone-bw:hover 
+{
+	background: url('images/Barcelone-color.jpg');
+}
+#SP-color 
+{
+background: url('images/SP-color.jpg'); 
+}
+#SP-bw 
+{
+	background: url('images/SP-bw.jpg');
+}
+#SP-bw:hover 
+{
+	background: url('images/SP-color.jpg');
+}
+
+/*BUTTONS MENU*/
+
+#buttons-menu
+{
+	
+	width: 100%;
+	padding:  80px 0 80px 0;
+    margin: 0 auto;
+    display: table-cell;
+    width: 100%;
+    padding: 80px 0 80px 0;
+    
+}
+
+#buttons-menu ul
+{
+	float: left;
+	position: relative;
+	left: 50%;
+	text-align: center;
+}
+.buttons
+{
+    width: 190px;
+    margin-left: 20px;
+    padding: 10px 0;
+    right: 50%;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0,0.75);
+    background-color: #272D67;
+    border: 2px solid #000363;
+    font-size: 23px;
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline-block;
+     margin: 0 auto;
+}
+
+
+.hovered
+{
+	background-color: #dcab4f;
+	border: 2px solid #333;
+
+}
+
+
+
+.welcomeText 
+{
+	width: 988px;
+	height: 300px;
+	background: rgba(220,171,79, 0.9);
+	color: black;
+	padding: 50px 10px 50px 10px;
+	padding-left: 30px;
+	font-size: 20px;
+	font-family: 'Gotu', sans-serif;
+	margin: 0 auto;
+	border-radius: 7px;	
+	left: 24%;
+	text-align: center;
+
+}
+
+
+.bookList 
+{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 25px 35px;
+	width: 100%;
+	padding-left: 50px;
+	padding: 100px 0 100px 50px;
+
+}
+
+.book 
+{
+	width: 250px;
+}
+.bookName
+{
+	padding-top: 10px;
+	font-family: 'Gotu', sans-serif;
+
+}
+
+.bookPhoto:hover
+{
+	cursor: pointer;
+}
+
+
